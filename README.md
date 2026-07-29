@@ -11,13 +11,15 @@ SDK and docs are ready; hosted product access is invite-only while we prepare a 
 ## Install
 
 ```bash
-npm install @holectus/react @holectus/core @holectus/next
+npm install @holectus/react @holectus/core
 ```
+
+On Next.js App Router, also install `@holectus/next` for `createHolectusSessionRoute`.
 
 ## Quickstart
 
 1. Create an API key in the Holectus dashboard.
-2. Add a Next.js session route with `createHolectusSessionRoute` from `@holectus/next`.
+2. Add a **server** session route that mints tokens via `POST /api/auth/token` (Next.js: `createHolectusSessionRoute` from `@holectus/next`).
 3. Mount `DocumentChecklist` (subject uploads) or `DocumentManager` (admin review).
 
 ```tsx
@@ -37,6 +39,7 @@ export function SubjectDocuments({ subjectId }: { subjectId: string }) {
 
 - **Docs** — https://docs.holectus.com (document collection API & React embeds)
 - **Quickstart** — https://docs.holectus.com/quickstart (Next.js document upload checklist)
+- **React (any framework)** — https://docs.holectus.com/integrations/react
 - **Build vs buy** — https://docs.holectus.com/build-vs-buy
 - **Product** — https://holectus.com
 - **npm** — [`@holectus/react`](https://www.npmjs.com/package/@holectus/react), [`@holectus/core`](https://www.npmjs.com/package/@holectus/core), [`@holectus/next`](https://www.npmjs.com/package/@holectus/next)
