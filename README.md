@@ -1,6 +1,6 @@
 # Holectus
 
-**Document collection infrastructure for developers.**
+**Document collection infrastructure for developers** — a document collection API and React embeds for upload, review, expiry, and renewal inside your product, with signed webhooks.
 
 Add document collection to your project in minutes — plug-n-play React components, a typed client, and webhooks against the hosted Holectus API.
 
@@ -35,7 +35,10 @@ export function SubjectDocuments({ subjectId }: { subjectId: string }) {
 
 ## Learn more
 
-- **Docs** — https://docs.holectus.com
+- **Docs** — https://docs.holectus.com (document collection API & React embeds)
+- **Quickstart** — https://docs.holectus.com/quickstart (Next.js document upload checklist)
+- **Build vs buy** — https://docs.holectus.com/build-vs-buy
+- **Product** — https://holectus.com
 - **npm** — [`@holectus/react`](https://www.npmjs.com/package/@holectus/react), [`@holectus/core`](https://www.npmjs.com/package/@holectus/core), [`@holectus/next`](https://www.npmjs.com/package/@holectus/next)
 
 ## License
