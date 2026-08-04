@@ -6,7 +6,7 @@ Add document collection to your project in minutes — plug-n-play React compone
 
 Client SDKs (`@holectus/core`, `@holectus/react`, `@holectus/next`) are MIT on npm.
 
-SDK and docs are ready; hosted product access is invite-only while we prepare a wider launch.
+SDK and docs are ready; the hosted product is in open beta.
 
 ## Install
 
